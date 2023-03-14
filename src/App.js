@@ -8,9 +8,14 @@ export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
   console.log(squares);
   console.log(xIsNext);
+  console.log(xIsNext);
 
   function handleClick(i) {
     const nextSquares = squares.slice();
+    if (squares[i]) {
+      return;
+    }
+
     if (xIsNext) {
       nextSquares[i] = "X";
     } else {
