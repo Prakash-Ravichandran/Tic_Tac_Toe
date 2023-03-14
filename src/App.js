@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 import Square from "./components/Square";
+import { Footer } from "./components/Footer";
 
 export default function Board() {
   const [xIsNext, setXIsNext] = useState(true);
@@ -48,6 +49,7 @@ export default function Board() {
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
+      <Footer />
     </>
   );
 }
