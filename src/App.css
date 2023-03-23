@@ -102,13 +102,13 @@ body {
   justify-content: center;
   align-items: center;
   /* style */
-  box-shadow: 5px 5px 5px 5px saddlebrown;
+  box-shadow: 5px 5px 5px 5px #1aab8a;
   padding: 25px;
   border-radius: 8px;
 }
 
 .square {
-  border: 1px solid #999;
+  border: 1px solid #ffffff;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -119,7 +119,7 @@ body {
   padding: 0;
   text-align: center;
   width: 100px;
-  background: burlywood;
+  background: #1aab8a;
 }
 
 .board-row:after {
@@ -141,7 +141,7 @@ body {
 }
 
 .status {
-  border: 1px solid saddlebrown;
+  border: 1px solid #1aab8a;
   padding: 5px;
   border-radius: 8px;
 }
