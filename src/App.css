@@ -146,19 +146,23 @@ body {
   border-radius: 8px;
 }
 
+li {
+  list-style-type: none;
+}
+
 /* button styles */
 button.jump {
   background: #1aab8a;
   color: #fff;
   border: none;
   position: relative;
-  height: 60px;
   font-size: 1em;
   padding: 0 2em;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
   margin-bottom: 2px;
+  border-radius: 8px;
 }
 button.jump:hover {
   background: #fff;
